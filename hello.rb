@@ -12,3 +12,7 @@ get '/' do
 </html>
 EOS
 end
+
+get '/hello/:name' do
+"hello #{params['name']}"
+end
