@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World! ryukyu"
+  "<h1>Hello World! ryukyu</h1>"
 end
