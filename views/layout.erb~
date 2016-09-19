@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+<mata charset="utf-8">
+<title>heroku_app|<%= @title %></title>
+</head>
+
+<body>
+<h1><%= yield %></h1>
+</body>
+
+</html>
