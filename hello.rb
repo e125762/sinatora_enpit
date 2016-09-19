@@ -1,6 +1,8 @@
+# coding: utf-8
 require 'sinatra'
-
+require './name'
 get '/' do
+=begin
 <<EOS
 <html>
 <head>
@@ -11,8 +13,6 @@ get '/' do
 </body>
 </html>
 EOS
-end
-
-get '/hello/:name' do
-"hello #{params['name']}"
+=end
+erb :index
 end
